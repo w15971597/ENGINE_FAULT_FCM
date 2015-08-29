@@ -12,7 +12,6 @@ def excel_table_byindex(f, colnameindex=0, by_index=0):
     table = data.sheets()[by_index]
     coldata = table.col_values(2, start_rowx=4)
     # for x in coldata:
-    #     print x
     return coldata
     # CSVGrapher.text = coldata
     # fw = open('768-9-4-313re.txt', 'w')
